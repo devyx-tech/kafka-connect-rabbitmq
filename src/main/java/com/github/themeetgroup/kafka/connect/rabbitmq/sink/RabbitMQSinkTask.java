@@ -16,6 +16,8 @@
 
 package com.github.themeetgroup.kafka.connect.rabbitmq.sink;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.jcustenborder.kafka.connect.utils.VersionUtil;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
@@ -30,6 +32,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.Collection;
 import java.util.Map;
 import java.util.concurrent.TimeoutException;
@@ -61,8 +64,20 @@ public class RabbitMQSinkTask extends SinkTask {
         builder = addExpiration(builder);
         BasicProperties basicProperties = builder.build();
 
-        channel.basicPublish(this.config.exchange, this.config.routingKey,
+        byte[] bytes = (byte[]) record.value();
+        String jsonString = new String(bytes, StandardCharsets.UTF_8);
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        JsonNode jsonNode = objectMapper.readTree(jsonString);
+
+        Boolean dedicatedBool = jsonNode.get("dedicated").asBoolean();
+        String companyId = jsonNode.get("company_id").asText();
+
+        String dedicated = dedicatedBool ? "true" : "false";
+
+        channel.basicPublish(this.config.exchange, dedicated.concat(".").concat(companyId),
             basicProperties, (byte[]) record.value());
+          
       } catch (IOException e) {
         log.error("There was an error while publishing the outgoing message to RabbitMQ");
         throw new RetriableException(e);
