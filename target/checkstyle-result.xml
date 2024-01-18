@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/data/StringSourceMessageConverter.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/data/SourceMessageConverter.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/data/BytesSourceMessageConverter.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/data/MessageConverter.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/data/SourceRecordBuilder.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/RabbitMQSourceTask.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/ConnectConsumer.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/RabbitMQSourceConnectorConfig.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/RabbitMQSourceConnector.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/sink/RabbitMQSinkTask.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/sink/RabbitMQSinkConnector.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/sink/RabbitMQSinkHeaderParser.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/sink/RabbitMQSinkConnectorConfig.java">
+</file>
+<file name="/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/CommonRabbitMQConnectorConfig.java">
+</file>
+</checkstyle>

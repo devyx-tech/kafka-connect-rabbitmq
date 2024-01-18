@@ -1,0 +1,3 @@
+com/github/themeetgroup/kafka/connect/rabbitmq/source/data/MessageConverterTest.class
+com/github/themeetgroup/kafka/connect/rabbitmq/source/data/TransformationTest.class
+com/github/themeetgroup/kafka/connect/rabbitmq/source/data/MessageConverterTest$HeaderTestCase.class

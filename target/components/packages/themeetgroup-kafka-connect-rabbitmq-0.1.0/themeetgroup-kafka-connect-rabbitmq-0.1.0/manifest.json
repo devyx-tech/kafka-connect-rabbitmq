@@ -1,0 +1,30 @@
+{
+  "name" : "kafka-connect-rabbitmq",
+  "version" : "0.1.0",
+  "title" : "Kafka Connect RabbitMQ",
+  "description" : "A Kafka Connect connector reading and writing data from RabbitMQ.",
+  "owner" : {
+    "username" : "themeetgroup",
+    "name" : "The Meet Group"
+  },
+  "support" : { },
+  "tags" : [ "RabbitMQ", "Messaging" ],
+  "features" : {
+    "supported_encodings" : [ "any" ],
+    "single_message_transforms" : true,
+    "confluent_control_center_integration" : false,
+    "kafka_connect_api" : true
+  },
+  "documentation_url" : "https://github.com/themeetgroup/kafka-connect-rabbitmq",
+  "source_url" : "https://github.com/themeetgroup/kafka-connect-rabbitmq",
+  "docker_image" : {
+    "namespace" : "themeetgroup",
+    "name" : "kafka-connect-docker"
+  },
+  "license" : [ {
+    "name" : "The Apache License, Version 2.0",
+    "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+  } ],
+  "component_types" : [ "transform", "source", "sink" ],
+  "release_date" : "2024-01-16"
+}

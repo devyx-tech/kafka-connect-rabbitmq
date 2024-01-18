@@ -1,0 +1,2 @@
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/test/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/data/MessageConverterTest.java
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/test/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/data/TransformationTest.java

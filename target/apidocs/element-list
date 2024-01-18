@@ -1,0 +1,4 @@
+com.github.themeetgroup.kafka.connect.rabbitmq
+com.github.themeetgroup.kafka.connect.rabbitmq.sink
+com.github.themeetgroup.kafka.connect.rabbitmq.source
+com.github.themeetgroup.kafka.connect.rabbitmq.source.data

@@ -1,0 +1,16 @@
+#Tue Jan 16 11:19:53 BRT 2024
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/ConnectConsumer.java=1702313708566
+configuration*?=B92CFECA9BDCB7ADACE74E086DD16CD3CFD20274
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/RabbitMQSourceConnectorConfig.java=1702313708566
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/RabbitMQSourceTask.java=1702313708566
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/data/BytesSourceMessageConverter.java=1702313708570
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/data/SourceRecordBuilder.java=1702313708570
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/data/MessageConverter.java=1702313708570
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/data/SourceMessageConverter.java=1702313708570
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/sink/RabbitMQSinkTask.java=1702388182811
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/sink/RabbitMQSinkHeaderParser.java=1702313708566
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/data/StringSourceMessageConverter.java=1702313708570
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/sink/RabbitMQSinkConnectorConfig.java=1702313708566
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/CommonRabbitMQConnectorConfig.java=1702313708566
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/sink/RabbitMQSinkConnector.java=1702313708566
+/home/jpmelo/dev/devyx/back/kafka-connectors/kafka-connect-rabbitmq/src/main/java/com/github/themeetgroup/kafka/connect/rabbitmq/source/RabbitMQSourceConnector.java=1702313708566
